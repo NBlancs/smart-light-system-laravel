@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Smart Light Dashboard
+
+A Laravel-based smart light management system with authentication, dark mode, and complete CRUD functionality.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -21,6 +25,30 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Running in GitHub Codespaces
+
+This project is configured to run in GitHub Codespaces, which provides a complete development environment in the cloud. To get started:
+
+1. Push this code to a GitHub repository
+2. Click the "Code" button on your repository
+3. Select the "Codespaces" tab
+4. Click "Create codespace on main"
+
+The environment will be automatically set up with:
+- PHP 8.2
+- MySQL 8.0
+- Node.js and NPM
+- All required PHP extensions
+- All project dependencies
+
+Once the Codespace is running:
+1. The database migrations and seeders will run automatically
+2. The application will be available at the URL shown in the "Ports" tab (port 8000)
+3. You can log in using the default credentials:
+   - Email: `test@example.com`
+   - Password: (set during first login)
+   - Or register a new account
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
@@ -28,6 +56,19 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Running Locally
+
+// ...existing code...
+
+## Features
+
+- Smart light management
+- Light status toggling
+- Brightness control
+- Location filtering
+- User authentication with Laravel Breeze (dark mode)
+- Responsive design
 
 ## Laravel Sponsors
 
